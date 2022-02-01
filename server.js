@@ -30,7 +30,7 @@ app.post('/api/notes', function(req, res) {
     var noteId = (savedNotes.length.toString());
     newNote.id =noteId;
 
-    fs.writeFileSync('db/db/.json', JSON.stringify(savedNotes));
+    fs.writeFileSync('db/db.json', JSON.stringify(savedNotes));
 
     res.json(savedNotes);
 
