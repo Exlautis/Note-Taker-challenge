@@ -54,6 +54,6 @@ app.delete('/api/notes/:id', function(req, res) {
     return res.json(savedNotes);
 });
 
-app.listen(PORT, function() {
-    console.log('app listing on PORT ' + PORT);
+app.listen(PORT, () => {
+    console.log(`app listing on ${PORT}`);
 });
