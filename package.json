@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/Exlautis/Note-Taker-challenge#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2"
   }
 }
