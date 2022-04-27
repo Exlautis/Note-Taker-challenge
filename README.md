@@ -31,4 +31,25 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column  
 ```
 
-link to website: https://exlautis.github.io/Note-Taker-challenge/
+## installation
+to get this app going first clone repo
+```terminal
+git clone https://github.com/Exlautis/Note-Taker-challenge.git
+```
+Install dependencies 
+```terminal
+npm init -y
+```
+```terminal
+npm install express
+```
+and
+```terminal
+npm install uuid
+```
+to start running application simply input
+```terminal
+node server.js or npm start
+```
+After all of this is done then head over to http:''localhost:3001 
+
